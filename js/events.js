@@ -1,9 +1,6 @@
 //define functions here
 
-$(document).ready(function(){
 
-
-});
 
 function getIt() {
   $('p').bind('click', function() {
@@ -30,3 +27,8 @@ function submitIt() {
     alert('Your form is going to be submitted now.');
 })
 }
+
+$(document).ready(function(){
+
+
+});
